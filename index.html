@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>JARVIS App</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- link bootstrap via cdn  -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,500&display=swap" rel="stylesheet">
+
+    <!-- Link costom css file -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class='text-center pt-5 remove-vid-marg'>
+
+    <!-- video background -->
+    <video playsinline autoplay muted loop class="back-vid">
+        <source src="video/jarvis.mp4" />
+    </video>
+
+
+    <h1 class='mt-5' id="name-head">Hello I'm Jarvis Your Digital assistance</h1>
+    <div class="container mt-5">
+        <h6 id="listen"> please give me command by clicking the Listen button below...
+        </h6>
+    </div>
+    <a id="btnListen" class="btn mt-3">Give me Command</a>
+
+    <h5 id="cheading" class="mt-5">There are the following commands feeded int the Jarvis System </h5>
+    <!-- Commads -->
+    <ul id="clist">
+        <li>Jarvis open Gmail</li>
+        <li>Open YouTube</li>
+        <li>Jarvis open my Newton School dashboard</li>
+        <li>What is your name</li>
+        <li>Open Google</li>
+        <li>Open Facebook</li>
+        <li>Jarvis who invented you</li>
+        <li>Jarvis play movie</li>
+        <li>Jarvis play song</li>
+        <li>How are you Jarvis</li>
+    </ul>
+
+    <footer class="fixed-bottom " id="footer-section">Developed by <strong> <a
+                href="https://incomparable-kringle-bc1f89.netlify.app/">Yuvraj Das</strong></a>
+    </footer>
+
+    <!-- Link js file -->
+    <script src='js/script.js'></script>
+</body>
+
+</html>
